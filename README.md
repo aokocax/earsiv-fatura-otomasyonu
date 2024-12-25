@@ -1,4 +1,4 @@
-# earsiv-fatura-otomasyonu
+# E-arşiv Fatura otomasyon scripti.
 E-arsiv üzerinden otomatik olarak fatura oluşturmanızı sağlayan bir script.
 
 https://github.com/user-attachments/assets/9edffdab-8e5a-488a-80ca-0b447fb344be
