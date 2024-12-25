@@ -8,8 +8,7 @@ https://github.com/user-attachments/assets/9edffdab-8e5a-488a-80ca-0b447fb344be
 git clone https://github.com/mherrmann/helium
 ```
 
-diyerek helium'u indiriyoruz. Daha sonra bu repository üzerindeki fatura.py dosyası açarak kullanıcı adı ve şifre bilgilerini kendinize göre düzenliyorsunuz.
-Data.json dosyasına fatura bilgilerini giriyorsunuz.
+diyerek helium'u indiriyoruz. Daha sonra bu repository üzerindeki [fatura.py](https://github.com/aokocax/earsiv-fatura-otomasyonu/blob/main/fatura.py) dosyasını açarak kullanıcı adı ve şifre bilgilerini kendinize göre düzenliyorsunuz. Aynı dizine indirdiğiniz [data.json](https://github.com/aokocax/earsiv-fatura-otomasyonu/blob/main/data.json) dosyasına fatura bilgilerini giriyorsunuz.
 
 Son olarak fatura.py dosyasını çalıştırıyorsunuz ve data.json içindeki kişiler için verilen fatura tutarında faturalar teker teker ekleniyor.
 ```bash
