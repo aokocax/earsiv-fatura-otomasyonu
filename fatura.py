@@ -47,19 +47,19 @@ for entry in data:
     select_box.select_by_visible_text("Türkiye")
     time.sleep(0.5)  # 500 milisaniye bekle
 
-    click(S("#gen__1089"))
+    click(S("#gen__1092"))
     time.sleep(0.5)  # 500 milisaniye bekle
 
-    write("Yapay zeka fotoğraf üretimi", into=S("#gen__1146"))
-    write("1", into=S("#gen__1147"))
-    Select(driver.find_element(By.ID, "gen__1148")).select_by_visible_text("Adet")
+    write("Yapay zeka fotoğraf üretimi", into=S("#gen__1149"))
+    write("1", into=S("#gen__1150"))
+    Select(driver.find_element(By.ID, "gen__1151")).select_by_visible_text("Adet")
 
-    write(str(tutar).replace('.', ','), into=S("#gen__1149"))
-    Select(driver.find_element(By.ID, "gen__1156")).select_by_visible_text("20")
+    write(str(tutar).replace('.', ','), into=S("#gen__1152"))
+    Select(driver.find_element(By.ID, "gen__1159")).select_by_visible_text("20")
     write(ad, into=S("#gen__1035"))
     driver.execute_script(f"document.getElementById('date-gen__1026').value = '{tarih}';")
     driver.execute_script(f"document.getElementById('gen__1035').value = '{ad}';")
     driver.execute_script(f"document.getElementById('gen__1036').value = '{soyad}';")
-    click(S("#gen__1108"))
+    click(S("#gen__1111"))
     time.sleep(1.5)  # 500 milisaniye bekle
     driver.refresh()
